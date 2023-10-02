@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/gustavobastian/package/issues"
   },
-  "homepage": "https://github.com/gustavobastian/package#readme"
+  "publishConfig": {
+  "gustavobastian:registry": "https://npm.pkg.github.com"
+}
 }
