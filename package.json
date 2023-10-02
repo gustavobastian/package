@@ -4,7 +4,7 @@
   "description": "simple package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
     "url": "https://github.com/gustavobastian/package/issues"
   },
   "publishConfig": {
-  "gustavobastian:registry": "https://npm.pkg.github.com"
-}
+    "gustavobastian:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
